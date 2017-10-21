@@ -16,4 +16,16 @@ public class Banco {
 		return contas;
 	}
 
+	public double mostrarSaldo() {
+
+		double valorTotal = 0.0;
+
+		for (int i = 0; i < contas.size(); i++) {
+			Conta conta = this.contas.get(i);
+			valorTotal += conta.getSaldo();
+		}
+
+		return valorTotal;
+	}
+
 }

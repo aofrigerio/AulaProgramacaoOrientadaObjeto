@@ -32,6 +32,8 @@ public class TesteBanco {
 			System.out.println(conta1.getCliente().getNome() + " = " + conta1.getSaldo());
 		}
 
+		System.out.println("TOTAL DO BANCO = " + banco.mostrarSaldo());
+
 	}
 
 }
