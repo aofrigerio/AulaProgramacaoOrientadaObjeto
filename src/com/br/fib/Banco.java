@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Banco {
 
+	// Cria uma lista
 	List<Conta> contas = new ArrayList<Conta>();
 
 	public void addContas(Conta conta) {
